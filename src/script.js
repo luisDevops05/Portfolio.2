@@ -4,9 +4,6 @@ const burgerBtn = document.getElementById('burgerbtn')
 const dropDown = document.getElementById('navbarBasicExample')
 
 
-
-
-
 let drop = function(){
 
 burgerBtn.addEventListener('click',function(){
