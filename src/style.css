@@ -247,3 +247,12 @@ body {
     grid-template-columns: repeat(1, 360px);
   }
 }
+
+@media (max-width: 375px) {
+  .contact-main {
+    grid-template-columns: repeat(1, 320px);
+  }
+  .main-con {
+    grid-template-columns: 320px;
+  }
+}
