@@ -1,28 +1,7 @@
-console.log('script is running')
-
-const burgerBtn = document.getElementById('burgerbtn')
-const dropDown = document.getElementById('navbarBasicExample')
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 
-let drop = function(){
-
-burgerBtn.addEventListener('click',function(){
-
-    burgerBtn.classList.toggle('is-active')
-    dropDown.classList.toggle('is-active')
-
-
+toggleButton.addEventListener('click',()=>{
+    navbarLinks.classList.toggle('active')
 })
-
-
-
-
-
-
-console.log('drop is working')
-
-
-} 
-
-
-drop()
